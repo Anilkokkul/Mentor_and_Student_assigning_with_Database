@@ -27,7 +27,7 @@ app.use(express.json());
 const PORT = process.env.PORT || 5000;
 
 app.get("/", (req, res) => {
-  res.send("Hello How ARe You???");
+  res.send("Welcome to the Student mentor assign app");
 });
 
 //get all the students
